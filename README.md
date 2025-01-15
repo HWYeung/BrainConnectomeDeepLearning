@@ -1,7 +1,12 @@
 # BrainConnectomeDeepLearning
 These are the code used for my paper: Predicting sex, age, general cognition and mental health with machine learning on brain structural connectomes
 
+For detail decription of the BrainNetCNN model, please refer to Jeremy Kawahara et al. https://www.sciencedirect.com/science/article/abs/pii/S1053811916305237
 
+The DLGraphAndLayers folder contains the DAGnet construction and custom layers. For BrainNetCNN model without external regressor, one can also use the 
+BrainNetCNNModel_resnet.m matlab function or the BrainNetCNNModelBuilding.py python function
+
+## Analysis
 Suppose we have the a .mat file that contains all the Data needed for the analysis
 
 In the Data.mat file of N = 8183 participants, we have variables:
