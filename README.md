@@ -1,5 +1,5 @@
 # BrainConnectomeDeepLearning
-These are the code used for my paper: Predicting sex, age, general cognition and mental health with machine learning on brain structural connectomes
+These are the code used for my paper: Predicting sex, age, general cognition and mental health with machine learning on brain structural connectomes https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.26182
 
 For detail decription of the BrainNetCNN model, please refer to Jeremy Kawahara et al. https://www.sciencedirect.com/science/article/abs/pii/S1053811916305237
 
