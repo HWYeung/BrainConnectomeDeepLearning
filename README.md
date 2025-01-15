@@ -6,17 +6,16 @@ Suppose we have the a .mat file that contains all the Data needed for the analys
 
 In the Data.mat file of N = 8183 participants, we have variables:
 
-ID 		- 	Participant ID
-Connectome	-	Normalized connectomes (normalization described in the paper), struct variable, 
-			with fields {MD, FA, SC, OD, ISOVF, ICVF}
- 			- SC: uncorrected streamline count
- 			- FA: fractional anisotropy
- 			- MD: mean diffusivity
- 			- ICVF: intracellular volume fraction (neurite density)
- 			- ISOVF: isotropic volume fraction (extracellular water diffusion)
-			- OD: orientation dispersion (tract fanning/complexity)
-			Each of these weighted connectomes are of dimension 85-by-85-by-8183
-TargetVariables-	An array ID, Age, Sex, g-factor, MHQ-factor, nan for missing (for derivation of g-factor and MHQ-factor, please refer to the paper)
+- ID 		- 	Participant ID
+- Connectome	-	Normalized connectomes (normalization described in the paper), struct variable, 
+			with fields {MD, FA, SC, OD, ISOVF, ICVF}, each of these weighted connectomes are of dimension 85-by-85-by-8183
+  - SC: uncorrected streamline count
+  - FA: fractional anisotropy
+  - MD: mean diffusivity
+  - ICVF: intracellular volume fraction (neurite density)
+  - ISOVF: isotropic volume fraction (extracellular water diffusion)
+  - OD: orientation dispersion (tract fanning/complexity)
+- TargetVariables - An array ID, Age, Sex, g-factor, MHQ-factor, nan for missing (for derivation of g-factor and MHQ-factor, please refer to the paper)
 
 
 Model Training and collecting results:
